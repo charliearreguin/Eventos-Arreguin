@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&family=Ubuntu:wght@300&display=swap');
+
+.bg-green{
+	background-color: #45F54A;
+}
+
+.bg-orange{
+	background-color: #F5862C;
+}
+
+#botonera img{
+	width: 40px;
+}
+
+a,
+h1,
+h2,
+h3{
+	font-family: 'Arima', cursive;
+}
+
+p{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.imagenesCarousel{
+	height: 75%;
+}
+
+.h-img{
+	margin: 25px;
+}
+
+h5{
+	background-color: white;
+	color: black;
+
+}
+
+footer{
+	margin-bottom: 0;
+}
+
+.titulo{
+	text-align: center;
+	font-size: 70px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+
+.info{
+	font-size: 20px;
+	text-align: justify;
+	padding: 15px;
+}
