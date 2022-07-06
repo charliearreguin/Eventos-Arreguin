@@ -1,0 +1,53 @@
+
+a,
+h1,
+h2,
+h3{
+	font-family: $mainFont;
+}
+
+h5{
+	background-color: $white;
+	color: $black;
+}
+
+p{
+	font-family: $secundaryFont;
+}
+
+.imagenesCarousel{
+	height: 75%;
+}
+
+.h-img{
+	margin: 25px;
+}
+
+.titulo{
+	text-align: center;
+	font-size: $textLG;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+
+.info{
+	font-size: $textMD;
+	text-align: justify;
+	padding: 15px;
+}
+
+#contacto{
+	background-color: $secondaryColor;
+	div{
+		div{
+			article{
+				form{
+					button{
+						background-color: $mainColor;
+					}
+				}
+			}
+		}
+	}
+}

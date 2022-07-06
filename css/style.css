@@ -1,57 +1,44 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&family=Ubuntu:wght@300&display=swap');
-
-.bg-green{
-	background-color: #45F54A;
-}
-
-.bg-orange{
-	background-color: #F5862C;
-}
-
-#botonera img{
-	width: 40px;
-}
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@300&family=Ubuntu:wght@300&display=swap");
+#botonera {
+  background-color: #45F54A; }
+  #botonera img {
+    width: 40px; }
 
 a,
 h1,
 h2,
-h3{
-	font-family: 'Arima', cursive;
-}
+h3 {
+  font-family: "Arima", cursive; }
 
-p{
-	font-family: 'Ubuntu', sans-serif;
-}
+h5 {
+  background-color: #F3F0F0;
+  color: #1A1A1A; }
 
-.imagenesCarousel{
-	height: 75%;
-}
+p {
+  font-family: "Ubuntu", sans-serif; }
 
-.h-img{
-	margin: 25px;
-}
+.imagenesCarousel {
+  height: 75%; }
 
-h5{
-	background-color: white;
-	color: black;
+.h-img {
+  margin: 25px; }
 
-}
+.titulo {
+  text-align: center;
+  font-size: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
 
-footer{
-	margin-bottom: 0;
-}
+.info {
+  font-size: 20px;
+  text-align: justify;
+  padding: 15px; }
 
-.titulo{
-	text-align: center;
-	font-size: 70px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	
-}
+#contacto {
+  background-color: #F5862C; }
+  #contacto div div article form button {
+    background-color: #45F54A; }
 
-.info{
-	font-size: 20px;
-	text-align: justify;
-	padding: 15px;
-}
+footer {
+  background-color: #45F54A;
+  margin-bottom: 0; }
