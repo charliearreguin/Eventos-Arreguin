@@ -25,14 +25,9 @@ p {
 
 .titulo {
   text-align: center;
-  font-size: 70px;
+  font-size: 60px;
   margin-top: 20px;
   margin-bottom: 20px; }
-
-.info {
-  font-size: 20px;
-  text-align: justify;
-  padding: 15px; }
 
 #contacto {
   background-color: #F5862C; }
@@ -42,3 +37,24 @@ p {
 footer {
   background-color: #45F54A;
   margin-bottom: 0; }
+
+.titulos, .titulosEventos {
+  font-family: "Arima", cursive;
+  color: #F5862C;
+  text-align: center;
+  font-size: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.titulosEventos {
+  font-size: 30px;
+  color: #1EA823; }
+
+p {
+  font-size: 30px;
+  text-align: justify;
+  color: #7D5DF5;
+  padding: 15px; }
+
+.bgColor-info {
+  background-color: #FFEEE2; }

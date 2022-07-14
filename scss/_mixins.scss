@@ -1,0 +1,44 @@
+// EXTEND
+
+.titulos{
+	font-family: $mainFont;
+	color: $secondaryColor;
+	text-align: center;
+	font-size: $textLG;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+.titulosEventos{
+	@extend .titulos;
+	font-size: $textMD;
+	color: $thirdColor;
+
+}
+
+//MIXIN
+
+@mixin info($size, $align, $color){
+	font-size: $size;
+	text-align: $align;
+	color: $color;
+	padding: 15px;
+}
+
+p{
+	@include info($textMD, justify, #7D5DF5);
+}
+
+
+// MAPS
+
+$paleta:(
+	'uno': #FFEEE2,
+	'dos': #CAFFC7,
+	'tres': #E5E0FF,
+	);
+
+.bgColor-info{
+	background-color: map-get($map:$paleta, $key: 'uno');
+}
